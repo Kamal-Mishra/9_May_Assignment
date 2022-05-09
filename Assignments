@@ -45,3 +45,31 @@ public class cond_stat {
 	}
 
 }
+
+WAP to accept a character from user and check it is vowel or not
+import java.util.Scanner;
+
+public class cond_stat {
+	
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char alph;
+		int i=0;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter Alphabet: ");
+		alph=sc.next().charAt(0);
+		if (alph=='a'|| alph=='e'|| alph=='i'|| alph=='o'|| alph=='u')
+		{
+			System.out.println("Vowel: "+alph);
+		}
+		else if (alph>='a'||alph<='z');
+		{
+			System.out.println("Not a Vowel: "+alph);
+		}
+		
+	
+
+	}
+
+}
+
