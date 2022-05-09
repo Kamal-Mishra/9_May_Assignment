@@ -1,0 +1,21 @@
+Q.1 WAP to accept a no from user if no is even than display the square
+import java.util.Scanner;
+
+public class cond_stat {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		int num, square;
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter even Number: ");
+		num=sc.nextInt();
+		if (num%2==0)
+		{
+			square=num*num;
+			System.out.println("Square of Even Number is: "+square);
+		}
+	
+
+	}
+
+}
